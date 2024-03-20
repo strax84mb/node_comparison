@@ -1,0 +1,21 @@
+{
+  "name": "posts_js",
+  "version": "1.0.0",
+  "description": "Posts service by using only JS",
+  "type": "commonjs",
+  "main": "src/main.cjs",
+  "scripts": {
+    "dev": "node src/main",
+    "test": "test",
+    "jsdoc": "jsdoc src -r -c conf.json -d doc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mysql2": "^3.9.1",
+    "typeorm": "^0.3.20"
+  }
+}
